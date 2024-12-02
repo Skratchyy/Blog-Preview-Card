@@ -15,4 +15,21 @@ body {
   background-color: var(--yellow-color);
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  background-color: var(--white-color);
+  min-width: 327px;
+  min-height: 501px;
+  max-width: 384px;
+  max-height: 522px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--black-color);
+  box-shadow: 9px 9px var(--black-color);
+  margin: 20px;
 }
