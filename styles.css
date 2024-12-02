@@ -38,6 +38,7 @@ main {
   border: 1px solid var(--black-color);
   box-shadow: 9px 9px var(--black-color);
   margin: 20px;
+  cursor: pointer;
 }
 
 main > img {
@@ -107,4 +108,14 @@ p {
   font-size: 14px;
   line-height: 150%;
   letter-spacing: 0px;
+}
+
+main:hover {
+  transition: 0.5s;
+  box-shadow: 18px 18px var(--black-color);
+}
+
+main:hover h1 {
+  cursor: pointer;
+  color: var(--yellow-color);
 }
